@@ -4,7 +4,7 @@ const calculator = {
   waitingForSecondOperand: false,
   operator: null
 }
-
+// ini buat update display
 function updateDisplay() {
   const display = document.querySelector('.calculator-display')
   display.value = calculator.displayValue
